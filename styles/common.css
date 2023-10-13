@@ -5,5 +5,6 @@ html {
 body {
     margin: 0;
     padding: 0;
-    background-color: rgb(255, 255, 255);
+    background-color: #ececec;
+    transition: background-color 0.4s, color 0.4s; /* Ajout de la transition pour la couleur de fond et la couleur du texte */
 }

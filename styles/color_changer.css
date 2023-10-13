@@ -4,14 +4,15 @@
 }
 
 #color-change-button {
-    border-radius: 40px;
     background-color: #ffe100;
     color: rgb(0, 0, 0);
     border: none;
     padding: 10px 10px;
     cursor: pointer;
+
 }
 
 #color-change-button:hover {
     background-color: #e7ce13;
+    color: #ffffff;
 }
