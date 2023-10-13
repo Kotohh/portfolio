@@ -1,18 +1,7 @@
-.button-container {
-    text-align: center;
-    padding: 20px;
-}
-
 #color-change-button {
-    background-color: #ffe100;
+    background-color: #ffe10000;
     color: rgb(0, 0, 0);
     border: none;
-    padding: 10px 10px;
+    padding: 2px 2px;
     cursor: pointer;
-
-}
-
-#color-change-button:hover {
-    background-color: #e7ce13;
-    color: #ffffff;
 }
