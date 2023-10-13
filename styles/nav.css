@@ -1,0 +1,52 @@
+/**
+#menu-toggle {
+    display: none;
+}
+
+#menu-icon {
+    font-size: 30px;
+    cursor: pointer;
+    padding: 10px;
+    background-color: #ffe100;
+    color: #000000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+#menu {
+    position: fixed;
+    top: 0;
+    left: -250px; /* Masquer le menu initialement */
+    width: 250px;
+    height: 100%;
+    background-color: #ffe100;
+    transition: left 0.3s;
+}
+
+#menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+#menu ul li {
+    padding: 15px;
+    text-align: center;
+}
+
+#menu ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 18px;
+    display: block;
+}
+
+#menu-toggle:checked + #menu-icon {
+    left: 250px; /* Afficher le menu lorsque la case est cochée */
+}
+
+#menu-toggle:checked + #menu {
+    left: 0; /* Afficher le menu lorsque la case est cochée */
+}
+*/
